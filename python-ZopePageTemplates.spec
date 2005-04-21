@@ -8,7 +8,7 @@ Version:	1.4.0
 Release:	1
 License:	distributable
 Group:		Development/Languages/Python
-Source0:	http://mesh.dl.sourceforge.net/sourceforge/zpt/%{module}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/zpt/%{module}-%{version}.tgz
 # Source0-md5:	165f1cfedb0efa0ee3ce57087a1f4a01
 URL:		http://zpt.sourceforge.net/
 BuildRequires:	python-devel >= 1:2.3
@@ -25,11 +25,10 @@ use the elegance and ease of page templates in your own web
 applications, reporting frameworks, documentation systems, etc.
 
 %description -l pl
-Zope Page Templates jest bibliotek± Pythona, która implementuje wzroce 
-stron takie jak w Zope, ale dzia³a bez jego udzia³u. Oznacza to, ¿e 
-mo¿esz u¿ywaæ eleganckiego i prostego mechanizmu tworzenia wzorców stron 
-WWW, w swojej w³asnej aplikacji.
-
+Zope Page Templates jest bibliotek± Pythona, która implementuje wzroce
+stron takie jak w Zope, ale dzia³a bez jego udzia³u. Oznacza to, ¿e
+mo¿na u¿ywaæ eleganckiego i prostego mechanizmu tworzenia wzorców
+stron WWW w swojej w³asnej aplikacji.
 
 %prep
 %setup -q -n %{module}
