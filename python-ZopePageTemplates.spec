@@ -2,7 +2,7 @@
 %define	module	ZopePageTemplates
 
 Summary:	Zope Page Templates which works outside Zope
-Summary(pl):	Zope Page Templates dzia≥aj±ce poza ∂rodowiskiem Zope
+Summary(pl.UTF-8):   Zope Page Templates dzia≈ÇajƒÖce poza ≈õrodowiskiem Zope
 Name:		python-%{module}
 Version:	1.4.0
 Release:	1
@@ -24,11 +24,11 @@ need to install any part of Zope to use them. This means that you can
 use the elegance and ease of page templates in your own web
 applications, reporting frameworks, documentation systems, etc.
 
-%description -l pl
-Zope Page Templates jest bibliotek± Pythona, ktÛra implementuje wzroce
-stron takie jak w Zope, ale dzia≥a bez jego udzia≥u. Oznacza to, øe
-moøna uøywaÊ eleganckiego i prostego mechanizmu tworzenia wzorcÛw
-stron WWW w swojej w≥asnej aplikacji.
+%description -l pl.UTF-8
+Zope Page Templates jest bibliotekƒÖ Pythona, kt√≥ra implementuje wzroce
+stron takie jak w Zope, ale dzia≈Ça bez jego udzia≈Çu. Oznacza to, ≈ºe
+mo≈ºna u≈ºywaƒá eleganckiego i prostego mechanizmu tworzenia wzorc√≥w
+stron WWW w swojej w≈Çasnej aplikacji.
 
 %prep
 %setup -q -n %{module}
