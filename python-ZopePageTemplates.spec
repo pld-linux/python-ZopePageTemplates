@@ -2,7 +2,7 @@
 %define	module	ZopePageTemplates
 
 Summary:	Zope Page Templates which works outside Zope
-Summary(pl.UTF-8):   Zope Page Templates działające poza środowiskiem Zope
+Summary(pl.UTF-8):	Zope Page Templates działające poza środowiskiem Zope
 Name:		python-%{module}
 Version:	1.4.0
 Release:	1
