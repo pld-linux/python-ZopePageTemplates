@@ -5,7 +5,7 @@ Summary:	Zope Page Templates which works outside Zope
 Summary(pl.UTF-8):	Zope Page Templates działające poza środowiskiem Zope
 Name:		python-%{module}
 Version:	1.4.0
-Release:	3
+Release:	4
 License:	distributable
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/zpt/%{module}-%{version}.tgz
