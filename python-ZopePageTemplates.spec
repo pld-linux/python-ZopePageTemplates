@@ -34,7 +34,7 @@ stron WWW w swojej własnej aplikacji.
 %setup -q -n %{module}
 
 %build
-env CFLAGS="%{rpmcflags}" python setup.py build
+env CFLAGS="%{rpmcflags}" %py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
