@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/zpt/%{module}-%{version}.tgz
 # Source0-md5:	165f1cfedb0efa0ee3ce57087a1f4a01
 URL:		http://zpt.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
